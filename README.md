@@ -24,3 +24,33 @@ A full-stack railway ticket reservation system built with Spring Boot, Thymeleaf
    spring.datasource.url=jdbc:postgresql://localhost:5432/railwaydb
    spring.datasource.username=postgres
    spring.datasource.password=yourpassword
+   
+## 🔍 Project Preview
+
+<p align="center">
+  <img src="images/Screenshot 2025-06-21 160527.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 160546.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 160710.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 160751.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 160822.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 160838.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 160851.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 161021.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 161047.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 161109.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 161257.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 161322.png" width="600" />
+  <br><br>
+  <img src="images/Screenshot 2025-06-21 161343.png" width="600" />
+</p>
