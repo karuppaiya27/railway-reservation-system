@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Admin - Railway Reservation System</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+    <style>
+        body { display: flex; min-height: 100vh; }
+        .sidebar {
+            width: 220px;
+            background-color: #343a40;
+            color: #fff;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            color: #fff;
+            padding: 12px 20px;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h4 class="text-center">Admin Panel</h4>
+        <a th:href="@{/admin/dashboard}">Dashboard</a>
+        <a th:href="@{/admin/add-train}">Add Train</a>
+        <a th:href="@{/admin/manage-trains}">Manage Trains</a>
+        <a th:href="@{/admin/bookings}">View Bookings</a>
+        <a th:href="@{/logout}">Logout</a>
+    </div>
+    <div class="main-content">
+        <div th:replace="~{::section}"></div>
+    </div>
+</body>
+</html>
